@@ -1,0 +1,12 @@
+## Files for git to ignore
+
+# File types
+*.vs
+
+# Files
+.DS_store
+
+# Folders
+PID_Controller/PID_Controller/Simulation/Reference/
+
+# Files

@@ -1,0 +1,14 @@
+﻿  controlsystem.c
+  event_groups.c
+  heap_4.c
+  list.c
+  main.c
+  plant.c
+  port.c
+  queue.c
+  supporting_functions.c
+  tasks.c
+  plant.h
+Release\plant.obj : warning LNK4042: object specified more than once; extras ignored
+controlsystem.obj : error LNK2001: unresolved external symbol _simulateTemperatureChange
+C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\Simulation\SimulationTest\Release\SimulationTest.exe : fatal error LNK1120: 1 unresolved externals
