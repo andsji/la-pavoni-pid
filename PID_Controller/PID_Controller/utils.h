@@ -1,7 +1,7 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-#define HARDWARE
+//#define HARDWARE
 #ifndef HARDWARE
 	#define SIMULATION
 	#include "Simulation/plant.h"

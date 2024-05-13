@@ -1,0 +1,4 @@
+C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.vcxproj.CopyComplete
+C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.exe
+C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\gtest.pdb
+C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\gtest_main.pdb

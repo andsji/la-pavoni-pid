@@ -1,0 +1,70 @@
+﻿Build started 13/05/2024 15.28.32.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Tests.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Tests.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /I"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include" /Zi /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\Tests.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt test.cpp
+         test.cpp
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(20,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(25,19): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(26,18): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(39,19): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(40,18): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(54,19): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(67,19): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(68,18): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(76,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(81,19): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(82,18): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(96,18): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(109,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(112,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(121,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(124,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(133,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(136,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(145,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(148,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(157,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(160,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.exe" /NOLOGO "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\..\..\lib\native\v140\windesktop\msvcstl\static\rt-dyn\x86\Debug\gtest_maind.lib" "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\..\..\lib\native\v140\windesktop\msvcstl\static\rt-dyn\x86\Debug\gtestd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.lib" /MACHINE:X86 /SAFESEH Debug\test.obj
+         Debug\pch.obj
+         Tests.vcxproj -> C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Tests.tlog\unsuccessfulbuild".
+         Touching "Debug\Tests.tlog\Tests.lastbuildstate".
+     1>Done Building Project "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Tests.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Tests.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(20,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(25,19): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(26,18): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(39,19): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(40,18): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(54,19): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(67,19): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(68,18): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(76,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(81,19): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(82,18): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(96,18): warning C4305: '=': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(109,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(112,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(121,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(124,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(133,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(136,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(145,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(148,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(157,90): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\test.cpp(160,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+
+    22 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87

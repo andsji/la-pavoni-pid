@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavoni-pid\Tests\Debug\Tests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="InstructionTest.NegativeError" Duration="1" />
+    <TestDuration Test="InstructionTest.LargeError" Duration="1" />
+    <TestDuration Test="ErrorTest.GetError" Duration="1" />
+    <TestDuration Test="InstructionTest.StandardError" Duration="1" />
+    <TestDuration Test="InstructionTest.NoError" Duration="1" />
+    <TestDuration Test="InstructionTest.HighPrevError" Duration="1" />
+    <TestDuration Test="ErrorTest.IntegralErrorAcc" Duration="1" />
+    <TestDuration Test="TemperatureTest.Instruction5000" Duration="1" />
+    <TestDuration Test="TemperatureTest.Instruction100" Duration="1" />
+    <TestDuration Test="TemperatureTest.Instruction50" Duration="1" />
+    <TestDuration Test="TemperatureTest.Instruction0" Duration="1" />
+    <TestDuration Test="TemperatureTest.NegativeInstruction" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
