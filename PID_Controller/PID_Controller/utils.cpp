@@ -79,7 +79,7 @@ void actuator(float instr) {
 #ifdef SIMULATION
     simulateTemperatureChange(&plant, instr, cycleTime);
 
-    std::cout << "Temp: " << plant.temp << "\n";
+    std::cout << "Temperature: " << plant.temp << "\n";
 #else 
     float onTime = (instr / 100) * cycleTimeMs;
 

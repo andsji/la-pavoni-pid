@@ -1,15 +1,27 @@
-﻿Build started 08/05/2024 13.19.42.
-Logging verbosity is set to: Normal.     1>Project "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" on node 2 (Build target(s)).
+﻿Build started 13/05/2024 12.49.22.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SimulationTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>InitializeBuildStatus:
          Creating "Debug\Simulation.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt ../utils.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt ../controlsystem.cpp main.cpp ../utils.cpp
+         controlsystem.cpp
+     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\controlsystem.cpp(13,32): warning C4244: 'argument': conversion from 'float' to 'const TickType_t', possible loss of data
+         main.cpp
          utils.cpp
-     1>C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\utils.cpp(19,24): warning C4305: 'initializing': truncation from 'double' to 'float'
-         All outputs are up-to-date.
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /FC /errorReport:prompt FreeRTOS_Port/event_groups.c FreeRTOS_Port/heap_4.c FreeRTOS_Port/list.c plant.c FreeRTOS_Port/port.c FreeRTOS_Port/queue.c FreeRTOS_Port/supporting_functions.c FreeRTOS_Port/tasks.c
+         event_groups.c
+         heap_4.c
+         list.c
+         plant.c
+         port.c
+         queue.c
+         supporting_functions.c
+         tasks.c
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Debug\Simulation.exe" /INCREMENTAL /ILK:"Debug\Simulation.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Debug\Simulation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Debug\Simulation.lib" /MACHINE:X86 Debug\controlsystem.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Debug\Simulation.exe" /INCREMENTAL /ILK:"Debug\Simulation.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Debug\Simulation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Debug\Simulation.lib" /MACHINE:X86 Debug\controlsystem.obj
          Debug\event_groups.obj
          Debug\heap_4.obj
          Debug\list.obj
@@ -20,24 +32,24 @@ Logging verbosity is set to: Normal.     1>Project "C:\Users\ander\OneDrive\Skri
          Debug\supporting_functions.obj
          Debug\tasks.obj
          Debug\utils.obj
-         Simulation.vcxproj -> C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Debug\Simulation.exe
+         Simulation.vcxproj -> C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Debug\Simulation.exe
        FinalizeBuildStatus:
          Deleting file "Debug\Simulation.tlog\unsuccessfulbuild".
          Touching "Debug\Simulation.tlog\Simulation.lastbuildstate".
-     1>Done Building Project "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-       "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" (Build target) (1) ->
+       "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" (Build target) (1) ->
        (PrepareForBuild target) -> 
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SimulationTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
 
 
-       "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" (Build target) (1) ->
+       "C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\Simulation\Simulation.vcxproj" (Build target) (1) ->
        (ClCompile target) -> 
-         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\espresso-control-system\PID_Controller\PID_Controller\utils.cpp(19,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+         C:\Users\ander\OneDrive\Skrivebord\ITU\Bachelorprojekt2024\la-pavino-pid\PID_Controller\PID_Controller\controlsystem.cpp(13,32): warning C4244: 'argument': conversion from 'float' to 'const TickType_t', possible loss of data
 
     2 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.61
+Time Elapsed 00:00:07.07
