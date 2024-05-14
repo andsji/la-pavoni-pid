@@ -23,7 +23,7 @@ The pins used can be seen, and optionally changed, in the [PID_Controller.ino](h
 
 For optimal use (to avoid heat- and pressure loss), drill a hole in the machine's lid. Insert the thermocouple and seal the hole properly, e.g. with waterproof silicone gel.
 
-The set point and gain factors can be changed in the [utils.cpp](https://github.com/andsji/la-pavoni-pid/raw/main/PID_Controller/PID_Controller/utils.cpp) file.
+The set point and gain factors can be changed in the [utils.cpp](https://github.com/andsji/la-pavoni-pid/raw/main/PID_Controller/PID_Controller/utils.cpp) file:
 
 ```
 float setPoint = 96.0;
