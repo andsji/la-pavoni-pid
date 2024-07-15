@@ -3,6 +3,8 @@
 A PID controller built for the La Pavoni Europiccola.
 The system utilizes FreeRTOS for task prioritization.
 
+This project was made as a Bachelor's Project at the IT University of Copenhagen.
+
 ## How to use
 
 The PID controller is tuned for the La Pavoni Europiccola's full boiler capacity of 800 ml of water.
